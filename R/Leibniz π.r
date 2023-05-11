@@ -4,7 +4,7 @@
 #' @param pi A Liebniz approximation of pi
 #' @return value of Pi to varying precision
 #' @examples
-#' fib1 <- pi(digits=50);
+#' pi <- pi(digits=50);
 #' @export
 
 # Using a variable input would be faster to find the decimals of pi for small number of digits
