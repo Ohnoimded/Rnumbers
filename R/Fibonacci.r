@@ -1,10 +1,10 @@
-#' FIbonacci
-#'
-#' Generates large fibonacci sequences
-#' @param fibonacci
-#' @return nth fibonacci number
+#' fibonacci
+#' @name fibonacci
+#' @param fibonacci Generates fibonacci
+#' @return A sequence of fibonacci numbers or a csv file
 #' @examples
-#' fib1 <- fibonacci(50);
+#' fib1 <- fibonacci(n=50);
+#' fibonacci(n=50,save=T,print=T)
 #' @export
 
 library(gmp)
