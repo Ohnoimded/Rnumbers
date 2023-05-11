@@ -1,13 +1,14 @@
 #' pi
 #'
-#' Generates Pi to varying precision. Default iterations is 10e6.
-#' @param pi A Liebniz approximation of pi
+#' @name pi
+#' @param pi A Liebniz approximation of pi. Generates Pi to varying precision. Default iterations is 10e6.
 #' @return value of Pi to varying precision
 #' @examples
 #' pi <- pi(digits=50);
 #' @export
 
 # Using a variable input would be faster to find the decimals of pi for small number of digits
+
 library(Rmpfr)
 pi <- function(precision=10e6, digits=2000) {
   precision_bits <- ceiling(precision / log2(10))
