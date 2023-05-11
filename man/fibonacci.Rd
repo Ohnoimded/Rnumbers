@@ -5,10 +5,10 @@
 fibonacci
 }
 \description{
-Returns Fibonacci sequences
+Returns and saves Fibonacci sequences
 }
 \usage{
-fibonacci(x)
+fibonacci()
 }
 
 \author{
@@ -17,5 +17,5 @@ Ohnoimded}
 Performance depends on the hardware. Will update with better code}
 
 
-\examples{fib(n=50,save=T,print=T)
+\examples{fibonacci(n=50,save=T,print=T)
 }
