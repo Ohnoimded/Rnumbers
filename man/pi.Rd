@@ -16,5 +16,5 @@ value of Pi to varying precision
 Generates Pi to varying precision. Default iterations is 10e6.
 }
 \examples{
-fib1 <- pi(digits=50);
+pi <- pi(digits=50);
 }
