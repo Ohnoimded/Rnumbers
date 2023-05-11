@@ -1,7 +1,7 @@
 #' pi
 #'
 #' @name pi
-#' @param pi A Liebniz approximation of pi. Generates Pi to varying precision. Default iterations is 10e6.
+#' @param pi A Leibniz approximation of pi. Generates Pi to varying precision. Default iterations is 10e6.
 #' @return value of Pi to varying precision
 #' @examples
 #' pi <- pi(digits=50);
