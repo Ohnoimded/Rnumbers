@@ -8,7 +8,8 @@
 #' @export
 
 # Using a variable input would be faster to find the decimals of pi for small number of digits
-pi <- function(precision=10e8, digits=2000) {
+library(Rmpfr)
+pi <- function(precision=10e6, digits=2000) {
   precision_bits <- ceiling(precision / log2(10))
 
   sum <- mpfr(0, precision_bits)
