@@ -1,8 +1,8 @@
-\name{Pi}
-\alias{Pi}
+\name{pi}
+\alias{pi}
 
 \title{
-Pi
+pi
 }
 \description{
 Prints the value of pi to any number of digits

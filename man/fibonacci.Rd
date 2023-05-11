@@ -1,11 +1,11 @@
-\name{Fibonacci}
-\alias{Fibonacci}
+\name{fibonacci}
+\alias{fibonacci}
 
 \title{
-Fibonacci
+fibonacci
 }
 \description{
-Prints Fibonacci
+Returns Fibonacci sequences
 }
 \usage{
 fibonacci(x)
@@ -17,6 +17,5 @@ Ohnoimded}
 Performance depends on the hardware. Will update with better code}
 
 
-\examples{n <- 42069
-write.table(as.character(fibonacci(n)), "fibonacci.csv", col.names = "Fibonacci Numbers", row.names = FALSE)
+\examples{fib(n=50,save=T,print=T)
 }

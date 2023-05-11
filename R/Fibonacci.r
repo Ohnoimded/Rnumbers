@@ -14,8 +14,8 @@ fibonacci <- function(n,save=F,print=T) {
     for (i in 3:n) {
         fib[i] <- fib[i - 1] + fib[i - 2]
     }
-    if(save=T){write.table(as.character(fibonacci(n)), "fibonacci.csv", col.names = "Fibonacci Numbers", row.names = FALSE)}
-    if(print=T){fib}
+    if(save==T){write.table(as.character(fibonacci(n)), "fibonacci.csv", col.names = "Fibonacci Numbers", row.names = FALSE)}
+    if(print==T){fib}
 }
 
 
