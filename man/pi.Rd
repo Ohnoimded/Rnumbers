@@ -14,10 +14,10 @@ pi(precision = 10000, digits = 2000)
 \item{pi}{A Leibniz approximation of pi. Generates Pi to varying precision. Default iterations is 10e3.}
 }
 \value{
-value of Pi to varying number of digits
+Value of pi at varying number of digits
 }
 \description{
-pi
+Prints the value of pi
 }
 \examples{
 pi <- pi(digits=50,precision = 10e7);

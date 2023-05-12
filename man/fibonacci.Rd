@@ -13,13 +13,13 @@ fibonacci(n = 5, save = TRUE, print = FALSE)
 
 \item{print}{Logical. If TRUE, the generated numbers are printed to the console.}
 
-\item{fibonacci}{Generates fibonacci}
+\item{fibonacci}{Generates n Fibonacci numbers}
 }
 \value{
 A sequence of fibonacci numbers or a csv file
 }
 \description{
-fibonacci
+Generates n Fibonacci numbers as a sequence
 }
 \examples{
 fib1 <- fibonacci(n=50,save=TRUE,print=FALSE)

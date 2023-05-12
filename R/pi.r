@@ -1,9 +1,10 @@
 #' pi
 #' @name pi
+#' @description Prints the value of pi
 #' @param pi A Leibniz approximation of pi. Generates Pi to varying precision. Default iterations is 10e3.
 #' @param precision Number of iterations to get precise value
 #' @param digits Number of digits after the decimal point
-#' @return value of Pi to varying number of digits
+#' @return Value of pi at varying number of digits
 #' @examples
 #' pi <- pi(digits=50,precision = 10e7);
 #' @export

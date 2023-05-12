@@ -1,6 +1,7 @@
 #' fibonacci
 #' @name fibonacci
-#' @param fibonacci Generates fibonacci
+#' @description Generates n Fibonacci numbers as a sequence
+#' @param fibonacci Generates n Fibonacci numbers
 #' @param n The number of Fibonacci numbers to generate.
 #' @param save Logical. If TRUE, the generated numbers are saved in a file.
 #' @param print Logical. If TRUE, the generated numbers are printed to the console.

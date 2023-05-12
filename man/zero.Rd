@@ -13,11 +13,10 @@ zero(printing = T)
 \item{zero}{Just zero}
 }
 \value{
-zero
+0
 }
 \description{
-zero
-prints zero if you need a zero anytime
+Prints zero
 }
 \examples{
 zero <- zero();

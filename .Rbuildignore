@@ -1,3 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 notebook*
+^README\.md$
+^LICENSE\.md$
+^README\.Rmd$
