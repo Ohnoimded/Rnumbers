@@ -2,17 +2,21 @@
 % Please edit documentation in R/zero.R
 \name{zero}
 \alias{zero}
-\title{zero}
+\title{zero
+prints zero if you need a zero anytime}
 \usage{
 zero(printing = T)
 }
 \arguments{
+\item{printing}{Option to return or print the value to console}
+
 \item{zero}{Just zero}
 }
 \value{
 zero
 }
 \description{
+zero
 prints zero if you need a zero anytime
 }
 \examples{

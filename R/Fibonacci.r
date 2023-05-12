@@ -1,26 +1,27 @@
 #' fibonacci
 #' @name fibonacci
 #' @param fibonacci Generates fibonacci
+#' @param n The number of Fibonacci numbers to generate.
+#' @param save Logical. If TRUE, the generated numbers are saved in a file.
+#' @param print Logical. If TRUE, the generated numbers are printed to the console.
 #' @return A sequence of fibonacci numbers or a csv file
 #' @examples
-#' fib1 <- fibonacci(n=50);
-#' fibonacci(n=50,save=T,print=T)
+#' fib1 <- fibonacci(n=50,save=TRUE,print=FALSE)
+#' fibonacci(n=50,save=TRUE,print=TRUE)
 #' @export
 
-library(gmp)
-
 fibonacci <- function(n = 5, save = TRUE, print = FALSE) {
-  fib <- as.bigz(c(0, 1))
+  fib <- gmp::as.bigz(c(0, 1))
 
   for (i in 3:n) {
     fib[i] <- fib[i - 1] + fib[i - 2]
   }
 
   if (save) {
-    con <- file("fibonacci.csv")
-    cat("Fibonacci Numbers\n", file = con)
-    cat(paste(fib, collapse = "\n"), file = con)
-    close(con)
+    filename <- file("fibonacci.csv")
+    cat("Fibonacci Numbers\n", file = filename)
+    cat(paste(fib, collapse = "\n"), file = filename)
+    close(filename)
     message("Saved as fibonacci.csv")
     return(invisible())
   }
