@@ -1,7 +1,7 @@
 Package: Rnumbers
 Type: Package
 Title: Generate Special Mathematical Numbers
-Version: 0.1.0
+Version: 0.1.2
 Author: Nived
 Maintainer: Nived <21msm3040@cuchd.in>
 URL:https://github.com/Ohnoimded/Rnumbers
