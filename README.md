@@ -3,8 +3,8 @@
 
 # Rnumbers
 <!-- badges: start -->
-  [![R-CMD-check](https://github.com/Ohnoimded/Rnumbers/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Ohnoimded/Rnumbers/actions/workflows/R-CMD-check.yaml)
-  [![codecov](https://codecov.io/github/Ohnoimded/Rnumbers/branch/main/graph/badge.svg?token=TM794IEP5E)](https://codecov.io/github/Ohnoimded/Rnumbers)
+[![Project Status: Work in Progress](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![codecov](https://codecov.io/github/Ohnoimded/Rnumbers/branch/main/graph/badge.svg?token=TM794IEP5E)](https://codecov.io/github/Ohnoimded/Rnumbers)
   <!-- badges: end -->
 <h1> R functions to calculate numbers </h1>
 
