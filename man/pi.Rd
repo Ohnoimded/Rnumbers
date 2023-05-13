@@ -20,5 +20,5 @@ Value of pi at varying number of digits
 Prints the value of pi
 }
 \examples{
-pi <- pi(digits=50,precision = 10e7);
+pi <- pi(digits=50,precision = 10e3);
 }

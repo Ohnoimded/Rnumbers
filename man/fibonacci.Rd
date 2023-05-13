@@ -4,7 +4,7 @@
 \alias{fibonacci}
 \title{fibonacci}
 \usage{
-fibonacci(n = 5, save = TRUE, print = FALSE)
+fibonacci(n = 5, save = FALSE, print = FALSE)
 }
 \arguments{
 \item{n}{The number of Fibonacci numbers to generate.}
@@ -22,6 +22,6 @@ A sequence of fibonacci numbers or a csv file
 Generates n Fibonacci numbers as a sequence
 }
 \examples{
-fib1 <- fibonacci(n=50,save=TRUE,print=FALSE)
-fibonacci(n=50,save=TRUE,print=TRUE)
+fib1 <- fibonacci(n=50,save=FALSE,print=FALSE)
+fibonacci(n=50,save=FALSE,print=TRUE)
 }

@@ -6,7 +6,7 @@
 #' @param digits Number of digits after the decimal point
 #' @return Value of pi at varying number of digits
 #' @examples
-#' pi <- pi(digits=50,precision = 10e7);
+#' pi <- pi(digits=50,precision = 10e3);
 #' @export
 
 # Using a variable input would be faster to find the decimals of pi for small number of digits

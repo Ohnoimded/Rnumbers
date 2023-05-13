@@ -3,7 +3,9 @@ Type: Package
 Title: Generate Special Mathematical Numbers
 Version: 0.1.0
 Author: Nived
-Maintainer: Nived <21MSM3040@cuchd.in>
+Maintainer: Nived <21msm3040@cuchd.in>
+URL:https://github.com/Ohnoimded/Rnumbers
+BugReports:https://github.com/Ohnoimded/Rnumbers/issues
 Description: The Rnumbers package provides a collection of functions for generating a variety of special mathematical numbers, such as constants and sequences. These functions are designed for easy use and can be customized for different levels of precision, making them suitable for both light and heavy computational tasks.
 License: AGPL (>= 3)
 Encoding: UTF-8

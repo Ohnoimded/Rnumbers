@@ -4,3 +4,6 @@ notebook*
 ^README\.md$
 ^LICENSE\.md$
 ^README\.Rmd$
+^doc$
+^Meta$
+^data$

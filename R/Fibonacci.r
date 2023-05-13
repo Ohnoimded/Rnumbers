@@ -7,23 +7,32 @@
 #' @param print Logical. If TRUE, the generated numbers are printed to the console.
 #' @return A sequence of fibonacci numbers or a csv file
 #' @examples
-#' fib1 <- fibonacci(n=50,save=TRUE,print=FALSE)
-#' fibonacci(n=50,save=TRUE,print=TRUE)
+#' fib1 <- fibonacci(n=50,save=FALSE,print=FALSE)
+#' fibonacci(n=50,save=FALSE,print=TRUE)
 #' @export
+fibonacci <- function(n = 5, save = FALSE, print = FALSE) {
+  fib <- gmp::as.bigz(c(0, 1,1))
+  if (n == 0){
+    return(gmp::as.bigz(0))
+  }
 
-fibonacci <- function(n = 5, save = TRUE, print = FALSE) {
-  fib <- gmp::as.bigz(c(0, 1))
-
+  if (n==1){
+    return(gmp::as.bigz(c(0,1)))
+  }
+  if (n==2){
+    return(gmp::as.bigz(c(0,1,1)))
+  }
   for (i in 3:n) {
     fib[i] <- fib[i - 1] + fib[i - 2]
   }
 
   if (save) {
-    filename <- file("fibonacci.csv")
+    data_dir <- file.path(getwd(), "data")
+    dir.create(data_dir, showWarnings = FALSE)
+    filename <- file.path(data_dir, "fibonacci.csv")
     cat("Fibonacci Numbers\n", file = filename)
     cat(paste(fib, collapse = "\n"), file = filename)
-    close(filename)
-    message("Saved as fibonacci.csv")
+    message("Saved as data/fibonacci.csv")
     return(invisible())
   }
 
@@ -33,8 +42,3 @@ fibonacci <- function(n = 5, save = TRUE, print = FALSE) {
     return(fib)
   }
 }
-
-
-
-#The function `as.bigz` is used for big numbers and to avoid conversion error while calculating big numbers.<br/>
- # Do `install.packages("gmp")` to use `as.bigz`
