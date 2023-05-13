@@ -5,9 +5,8 @@
 <!-- badges: start -->
   [![R-CMD-check](https://github.com/Ohnoimded/Rnumbers/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Ohnoimded/Rnumbers/actions/workflows/R-CMD-check.yaml)
   [![codecov](https://codecov.io/github/Ohnoimded/Rnumbers/branch/main/graph/badge.svg?token=TM794IEP5E)](https://codecov.io/github/Ohnoimded/Rnumbers)
-<h1> R functions to calculate numbers </h1>
   <!-- badges: end -->
-
+<h1> R functions to calculate numbers </h1>
 
 It is an unorganised repo of historically important numbers and methods to calculate them. The goal of Rnumbers is to generate mathematical numbers without needing to code much
 
