@@ -5,6 +5,7 @@
 <!-- badges: start -->
 [![Project Status: Work in Progress](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![codecov](https://codecov.io/github/Ohnoimded/Rnumbers/branch/main/graph/badge.svg?token=TM794IEP5E)](https://codecov.io/github/Ohnoimded/Rnumbers)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
   <!-- badges: end -->
 <h1> R functions to calculate numbers </h1>
 
